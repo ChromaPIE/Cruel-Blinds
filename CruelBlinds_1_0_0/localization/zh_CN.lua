@@ -7,8 +7,15 @@ return {
 				"底注{C:attention}1{}之后的所有盲注均将来自{C:attention}Cruel Blinds - 残酷盲注{}模组",
 			},
 		},
+		["poker_hands"] = {
+			["No Hand"] = "No Hand",
+		},
+		["labels"] = {
+			["puzzled"] = "错乱",
+		},
 		["challenge_names"] = {
 			["c_very_cruel"] = "残酷至极",
+			["c_very_crueler"] = "丧尽天良",
 		},
 	},
 	["descriptions"] = {
@@ -58,6 +65,12 @@ return {
 					"分发至其他牌型",
 				},
 			},
+			["bl_cruel_fire"] = {
+				["name"] = "烈焰",
+				["text"] = {
+					"基础筹码为0，基础倍率为1",
+				},
+			},
 			["bl_cruel_tide"] = {
 				["name"] = "潮汐",
 				["text"] = {
@@ -65,11 +78,9 @@ return {
 					"出牌次数-1",
 				},
 			},
-			["bl_cruel_collapse"] = {
-				["name"] = "崩解",
+			["bl_wheel"] = {
 				["text"] = {
-					"出牌后，其牌型每被打出一次",
-					"盲注分数要求+4%",
+					"#1#/7的几率，抽到的牌",
 				},
 			},
 			["bl_cruel_steal"] = {
@@ -78,16 +89,43 @@ return {
 					"#1#不被视为有效牌型",
 				},
 			},
+			["bl_cruel_checker"] = {
+				["name"] = "The Checker",
+				["text"] = {
+					"Every other rank",
+					"is debuffed",
+				},
+			},
 			["bl_cruel_sink"] = {
 				["name"] = "淤阻",
 				["text"] = {
 					"弃掉一手同花前不允许任何出牌",
 				},
 			},
+			["bl_cruel_mist"] = {
+				["name"] = "雾",
+				["text"] = {
+					"每张抽到的牌均有#1#/#2#的几率",
+					"处于疑云之下",
+				},
+			},
+			["bl_cruel_puzzle"] = {
+				["name"] = "迷惑",
+				["text"] = {
+					"每张抽到的牌均有#1#/#2#的几率",
+					"永久处于错乱状态",
+				},
+			},
 			["bl_cruel_muck"] = {
 				["name"] = "低劣粪肥",
 				["text"] = {
 					"稀有及以上的小丑牌全部失效",
+				},
+			},
+			["bl_cruel_night"] = {
+				["name"] = "夜",
+				["text"] = {
+					"红桃和方片全部失效且背面朝上",
 				},
 			},
 			["bl_cruel_overshoot"] = {
@@ -97,23 +135,26 @@ return {
 					"使最低要求提升8%",
 				},
 			},
-			["bl_cruel_night"] = {
-				["name"] = "夜",
-				["text"] = {
-					"红桃和方片全部失效且背面朝上",
-				},
-			},
 			["bl_cruel_hurdle"] = {
 				["name"] = "险阻",
 				["text"] = {
 					"底注永久+1",
 				},
 			},
-			["bl_cruel_lens"] = {
-				["name"] = "雾",
+			["bl_cruel_collapse"] = {
+				["name"] = "崩解",
 				["text"] = {
-					"每#2#张卡牌中有#1#张",
-					"被抽到时将处于疑云之下",
+					"出牌后，其牌型每被打出一次",
+					"盲注分数要求+4%",
+				},
+			},
+		},
+		["Other"] = {
+			["puzzled"] = {
+				["name"] = "错乱",
+				["text"] = {
+					"每次出牌时",
+					"随机变化点数和花色",
 				},
 			},
 		},
