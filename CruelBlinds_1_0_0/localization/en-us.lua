@@ -45,6 +45,13 @@ return {
 					"face up",
 				},
 			},
+			["bl_cruel_card"] = {
+				["name"] = "The Card",
+				["text"] = {
+					"Playing cards",
+					"do not score",
+				},
+			},
 			["bl_cruel_jaw"] = {
 				["name"] = "The Jaw",
 				["text"] = {
@@ -57,6 +64,26 @@ return {
 				["text"] = {
 					"Spades and Clubs are debuffed",
 					"and drawn face down",
+				},
+			},
+			["bl_cruel_collapse"] = {
+				["name"] = "The Collapse",
+				["text"] = {
+					"+4% blind size each hand",
+					"per time poker hand played",
+				},
+			},
+			["bl_cruel_jester"] = {
+				["name"] = "The Fool",
+				["text"] = {
+					"-1 Hand*",
+				},
+			},
+			["bl_cruel_register"] = {
+				["name"] = "The Register",
+				["text"] = {
+					"#1# in #2# hands are",
+					"disallowed and refunded",
 				},
 			},
 			["bl_cruel_reach"] = {
@@ -73,13 +100,6 @@ return {
 					"1 base Mult",
 				},
 			},
-			["bl_cruel_tide"] = {
-				["name"] = "The Tide",
-				["text"] = {
-					"Start with 0 discards",
-					"-1 Hands",
-				},
-			},
 			["bl_wheel"] = {
 				["text"] = {
 					"#1#/7的几率，抽到的牌",
@@ -90,6 +110,20 @@ return {
 				["text"] = {
 					"#1# isn't a",
 					"poker hand",
+				},
+			},
+			["bl_cruel_tide"] = {
+				["name"] = "The Tide",
+				["text"] = {
+					"Start with 0 discards",
+					"-1 Hands",
+				},
+			},
+			["bl_cruel_chime"] = {
+				["name"] = "Focused Chime",
+				["text"] = {
+					"Each hand must contain",
+					"a scoring #1# or #2#",
 				},
 			},
 			["bl_cruel_checker"] = {
@@ -111,6 +145,13 @@ return {
 				["text"] = {
 					"#1# in #2# cards are",
 					"drawn clouded",
+				},
+			},
+			["bl_cruel_bin"] = {
+				["name"] = "The Bin",
+				["text"] = {
+					"Discards cards played",
+					"last ante",
 				},
 			},
 			["bl_cruel_puzzle"] = {
@@ -145,13 +186,6 @@ return {
 				["name"] = "The Hurdle",
 				["text"] = {
 					"+1 Ante permanently",
-				},
-			},
-			["bl_cruel_collapse"] = {
-				["name"] = "The Collapse",
-				["text"] = {
-					"+4% blind size each hand",
-					"per time poker hand played",
 				},
 			},
 		},

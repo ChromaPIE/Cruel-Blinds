@@ -32,10 +32,6 @@ SMODS.Atlas({ key = "broken", atlas_table = "ASSET_ATLAS", path = "broken.png", 
 })
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Mind',
-        text = { 'Only one card', 'face up' }
-    },
     key = 'mind',
     config = {},
     boss = {min = 2, max = 10, hardcore = true}, 
@@ -76,10 +72,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Jaw',
-        text = { 'Drawing cards costs', '$1 each' }
-    },
     key = 'jaw',
     name = 'The Jaw',
     config = {},
@@ -93,10 +85,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Steal',
-        text = { '#1# isn\'t a', 'poker hand' }
-    },
     key = 'steal',
     name = 'The Steal',
     config = {},
@@ -126,10 +114,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Sink',
-        text = { 'No hands allowed until', 'a Flush is discarded' }
-    },
     key = 'sink',
     name = 'The Sink',
     config = {},
@@ -147,10 +131,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Day',
-        text = { 'Spades and Clubs are debuffed', 'and drawn face down' }
-    },
     key = 'day',
     config = {},
     boss = {min = 1, max = 10, hardcore = true}, 
@@ -184,10 +164,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Night',
-        text = { 'Hearts and Diamonds are debuffed', 'and drawn face down' }
-    },
     key = 'night',
     config = {},
     boss = {min = 1, max = 10, hardcore = true}, 
@@ -221,10 +197,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Tide',
-        text = { 'Start with 0 discards', '-1 Hands' }
-    },
     key = 'tide',
     config = {},
     boss = {min = 2, max = 10, hardcore = true}, 
@@ -253,10 +225,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Sword',
-        text = { 'Play only 1 hand.', '-1 Discards' }
-    },
     key = 'sword',
     config = {},
     boss = {min = 2, max = 10, hardcore = true}, 
@@ -285,10 +253,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Shackle',
-        text = { '-2 Hand Size' }
-    },
     key = 'shackle',
     config = {},
     boss = {min = 4, max = 10, hardcore = true}, 
@@ -316,10 +280,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Hurdle',
-        text = { '+1 Ante permanently' }
-    },
     key = 'hurdle',
     config = {},
     boss = {min = 2, max = 10, hardcore = true}, 
@@ -350,10 +310,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Collapse',
-        text = { '+4% blind size each hand', 'per time poker hand played' }
-    },
     key = 'collapse',
     config = {},
     boss = {min = 4, max = 10, hardcore = true}, 
@@ -384,10 +340,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Reach',
-        text = { 'Disperse half of levels of played', 'poker hand amongst other poker hands' }
-    },
     key = 'reach',
     config = {},
     boss = {min = 4, max = 10, hardcore = true}, 
@@ -444,10 +396,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'Daring Group',
-        text = { '#1#, #2#,', 'and #3#' }
-    },
     key = 'daring',
     name = "Daring Group",
     config = {},
@@ -696,10 +644,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'Common Muck',
-        text = { 'Debuff jokers which', 'are rare or better' }
-    },
     key = 'muck',
     config = {},
     boss = {showdown = true, min = 10, max = 10, hardcore = true}, 
@@ -727,10 +671,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'Obscure Overshoot',
-        text = { 'Raise blind size by 8%', 'for every 5% overscored' }
-    },
     key = 'overshoot',
     name = 'Obscure Overshoot',
     config = {},
@@ -750,10 +690,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Mist',
-        text = { '#1# in #2# cards are', 'drawn clouded' }
-    },
     key = 'mist',
     name = 'The Mist',
     config = {},
@@ -819,10 +755,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Puzzle',
-        text = { '#1# in #2# cards are', ' drawn permanenty puzzled' }
-    },
     key = 'puzzle',
     name = "The Puzzle",
     config = {},
@@ -845,10 +777,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Fire',
-        text = { '0 base Chips and', '1 base Mult' }
-    },
     key = 'fire',
     name = "The Fire",
     config = {},
@@ -868,10 +796,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Checker',
-        text = { 'Every other rank', 'is debuffed' }
-    },
     key = 'checker',
     name = "The Checker",
     config = {},
@@ -896,10 +820,6 @@ SMODS.Blind	{
 }
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'Focused Chime',
-        text = { 'Each hand must contain', 'a scoring #1# or #2#' }
-    },
     key = 'chime',
     name = "Focused Chime",
     config = {},
@@ -965,10 +885,6 @@ SMODS.Blind	{
 SMODS.Atlas({ key = "register_blind", atlas_table = "ANIMATION_ATLAS", path = "register.png", px = 34, py = 34, frames = 21 })
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Register',
-        text = { '#1# in #2# hands are', 'disallowed and refunded' }
-    },
     key = 'register',
     name = "The Register",
     config = {},
@@ -1011,10 +927,6 @@ end
 SMODS.Atlas({ key = "bin_blind", atlas_table = "ANIMATION_ATLAS", path = "bin.png", px = 34, py = 34, frames = 21 })
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Bin',
-        text = { 'Discards cards played', 'last ante' }
-    },
     key = 'bin',
     name = "The Bin",
     config = {},
@@ -1052,10 +964,6 @@ SMODS.Blind	{
 SMODS.Atlas({ key = "card_blind", atlas_table = "ANIMATION_ATLAS", path = "card.png", px = 34, py = 34, frames = 21 })
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Card',
-        text = { 'Playing cards', 'do not score' }
-    },
     key = 'card',
     name = "The Card",
     config = {},
@@ -1071,10 +979,6 @@ SMODS.Blind	{
 SMODS.Atlas({ key = "fool_blind", atlas_table = "ANIMATION_ATLAS", path = "fool.png", px = 34, py = 34, frames = 21 })
 
 SMODS.Blind	{
-    loc_txt = {
-        name = 'The Fool',
-        text = { '-1 Hand*'}
-    },
     key = 'jester',
     name = "The Fool",
     config = {},
