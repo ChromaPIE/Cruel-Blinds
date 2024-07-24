@@ -1016,15 +1016,6 @@ function G.FUNCS.get_poker_hand_info(_cards)
 	return text, loc_disp_text, poker_hands, scoring_hand, disp_text
 end
 
-function SMODS.current_mod.process_loc_text()
-    G.localization.misc.challenge_names["c_very_cruel"] = "Very Cruel"
-    G.localization.misc.challenge_names["c_very_crueler"] = "Cruely Cruel"
-    G.localization.misc.v_text.ch_c_cruel_blinds = {"All blinds past ante {C:attention}1{} are {C:attention}cruel blinds{}."}
-    G.localization.descriptions.Other.puzzled = {name = "Puzzled", text = {"Randomize rank and suit", "each hand played."}}
-    G.localization.misc.labels.puzzled = "Puzzled"
-    G.localization.misc.poker_hands["No Hand"] = "No Hand"
-end
-
 table.insert(G.CHALLENGES,#G.CHALLENGES+1,
     {name = 'Very Cruel',
         id = 'c_very_cruel',
