@@ -8,7 +8,7 @@ return {
 			},
 		},
 		["poker_hands"] = {
-			["No Hand"] = "No Hand",
+			["No Hand"] = "无牌型",
 		},
 		["labels"] = {
 			["puzzled"] = "错乱",
